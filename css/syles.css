@@ -2,7 +2,7 @@
 body {
     font-family: "Roboto", sans-serif;
     color: #434455;
-    background-color: #ffffff ;    
+    background-color: #ffffff ;   
 }
 
 
@@ -16,6 +16,20 @@ a {
     color: #434455;
 }
 
+.header-container {
+    display: flex;
+    padding: 24px 0;
+    justify-content: space-between;
+    /*background-color: rgb(162, 55, 211);    /* for test*/ 
+    border: 1px solid #F4F4FD;
+}
+
+.container {
+    display: flex;
+    padding: 0;
+    /*background-color: greenyellow; /* for test*/
+}
+
 .head-logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -24,7 +38,12 @@ a {
     line-height: 1.17;
     letter-spacing: 0.03em;
     color: #4d5ae5;
+}
 
+.logo-container {
+    display: flex;
+    padding: 16px 156px;
+    padding-bottom: 0;
 }
 
 .logo-top {
@@ -32,6 +51,8 @@ a {
 }
 
 .main-nav {
+    display: flex;
+    gap: 40px;
     font-weight: 500;
     font-size: 16;
     line-height: 1.5;
@@ -60,6 +81,12 @@ address {
     font-style: normal;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    padding-right: 156px; 
+}
+
+.contacts-container {
+    display: flex;
+    gap: 40px;
 }
 
 .contacts-item:hover,
@@ -69,6 +96,7 @@ address {
 
 .main-action {
     background-color: #2E2F42;
+    flex-grow: 1;
 }
 
 .main-line {
