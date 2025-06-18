@@ -1,0 +1,176 @@
+
+body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #ffffff ;    
+}
+
+
+ul, ol {
+    list-style-type: none;
+    
+}
+
+a {
+    text-decoration: none;
+    color: #434455;
+}
+
+.head-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: #4d5ae5;
+
+}
+
+.logo-top {
+    color: #2e2f42;
+}
+
+.main-nav {
+    font-weight: 500;
+    font-size: 16;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:#2e2f42;
+}
+
+.main-nav-item {
+    color: #2e2f42;
+}
+
+.main-nav-item:hover,
+.main-nav-item:focus {
+    color: #404bbf;
+}
+
+
+.main-nav:hover,
+.main-nav:focus {
+    color: #404bbf;
+}
+
+address {
+    font-weight: 400;
+    font-size: 16;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.contacts-item:hover,
+.contacts-item:focus {
+    color: #404bbf;
+}
+
+.main-action {
+    background-color: #2E2F42;
+}
+
+.main-line {
+    font-weight: 700;
+    font-size: 56px;
+    text-align: center;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    color: #ffffff ;
+}
+
+.main-action-btn {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    background-color: #4D5AE5;
+    cursor: pointer;
+}
+
+.main-action-btn:hover,
+.main-action-btn:focus {
+    background-color: #404BBF;
+}
+
+
+
+
+.standarts-header,
+.team-members-header {  /* h3*/
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color:#2e2f42;
+}
+
+
+
+.section-header { /*h2*/
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+
+}
+
+.section-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:#434455;
+}
+
+.team-display {
+    background-color: #F4F4FD;
+}
+
+.team-display-header {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize; /* не розумію навіщо якщо на макеті текст не капсом */
+    color: #2e2f42;
+
+}
+
+.team-members {
+    background-color: #FFFFFF;
+}
+
+.bottom {
+    background-color: #2E2F42;
+}
+
+.footer-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: #4d5ae5;
+    background-color: #2E2F42;
+}
+
+.logo-bottom {
+    color:#f4f4fd;
+}
+
+.footer-text {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #F4F4FD;
+    background-color: #2E2F42;
+    text-align: left;
+    letter-spacing: 0.02em;
+}
+
