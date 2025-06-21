@@ -104,7 +104,7 @@ address {
   padding-right: 156px;
 }
 
-.contacts {
+.contacts-list {
   display: flex;
   gap: 40px;
 }
