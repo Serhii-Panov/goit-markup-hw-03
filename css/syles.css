@@ -14,7 +14,8 @@ p {
 
 ul,
 ol,
-nav {
+nav,
+menu {
   list-style-type: none;
   margin: 0;
   padding-left: 0;
